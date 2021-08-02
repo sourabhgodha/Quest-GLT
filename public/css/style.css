@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+body,
+input {
+    font-family: "Poppins", sans-serif;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft {
+    background-color: #0089ff;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft {
+    text-align: center;
+}
+
+tr.MuiTableRow-root:nth-of-type(odd) {
+    background-color: rgb(242, 242, 242);
+}
+
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px 0px 0px;
+}
+
+.btn {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 15px;
+    max-width: 120px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn.btn-bk {
+    background-color: rgb(0 137 255);
+}
+
+.btn.btn-re {
+    background-color: rgb(201 195 195);
+}
+
+.ReactModal__Overlay {
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+    max-width: fit-content;
+    height: fit-content;
+    inset: 50% 0 0 50% !important;
+    transform: translate(-50%, -50%);
+    padding: 0 !important;
+    border: 4px solid rgb(0 137 255) !important;
+}
+
+.modal-foot-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.modal-para {
+    background-color: rgb(0 137 255);
+    color: white;
+    font-size: 18px;
+    padding: 20px 50px;
+}
+
+.input-lbl label {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: rgb(112, 104, 102);
+}
+
+.MuiListItem-button.MuiMenuItem-root:first-child {
+    display: none;
+}
+
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+    background-color: rgb(242, 242, 242) !important;
+    color: rgb(232, 120, 46);
+}
+
+.MuiListItem-button.MuiMenuItem-root {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    font-weight: 400;
+    background-color: transparent !important;
+    transition: none;
+}
+
+
+.modal-cont {
+    min-width: 500px;
+    min-height: 250px;
+}
+
+.modal-cont .modal-dr-dwn {
+    width: 100%;
+    padding: 15px 80px;
+}
+
+.modal-cont .input-lbl,
+.modal-cont .MuiFormControl-root {
+    width: 100%;
+}
+
+.MuiFormControl-root .MuiInputBase-formControl .MuiOutlinedInput-input {
+    padding: 10px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #D2D2D2 !important;
+    border-width: 2px;
+}
+
+.tb {
+    margin: 30px;
+}
+
+.modal-conf-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-conf-txt p {
+    color: #0089ff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.int input {
+    width: 100%;
+    padding: 10px;
+}
+
+.required:after {
+    color: red;
+    content: " *";
+}
+
+.err {
+    color: red;
+    font-size: 14px;
+    margin-left: 20px;
+}
